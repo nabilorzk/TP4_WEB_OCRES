@@ -1,0 +1,35 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+button {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5 linear;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.containerHeaderButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5%;
+  transition: 0.5 linear;
+}
+
+.containerHeaderButton button {
+  margin-left: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 2rem;
+}
